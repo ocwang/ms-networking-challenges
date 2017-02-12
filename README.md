@@ -1,21 +1,20 @@
-# ms-networking-challenges
+# Basic Networking Challenges
+### Monday, Feb. 13th
 
-Monday Challenges
+*Content:* A client wants to build a simple wrapper around Product Hunt using the PH API. The first feature you are to implement is to build a main feed that display's all of today's featured products. The client doesn't want to add any dependencies and asks you explicitly not to use any third party libraries.
 
-You'll be creating a simple iOS app that display's all of today's featured products on Product Hunt. To learn more about Apple's native API's for dealing with networking, you won't be using any third-party libraries to build this app.
+*Specs:*
 
-While building this app, you must complete the following objectives:
+1. Create your URL in a composable manner so the client can easily add more features reusing base URL and/or adding more parameters to existing URLs.
 
-1. Create a URL using the string initializer. Create unit tests to verify the URL scheme, host, path, and absolute string.
+2. Add unit tests verifying the scheme, host, path, base URL, query of the URL.
 
-2. Create a relative URL from a base URL. 
+3. Make a networking request to fetch all of the products featured today on PH.
 
-3. Add a query item using URLComponents. Why would we want to create URLs using base URLs, relative paths, and URLComponents?
+4. Convert the data returned into models using flatMap and failable initializers.
 
-4. Make a network request to fetch all of today's featured products on PH.
+5. Display the data returned in a feed that shows each product's name, tagline, number of votes, and thumbnail.
 
-5. Deserialize the data that's returned with flatMap and a failable initializer.
+6. Add a button so that users can vote and unvote products in the feed.
 
-6. Display the returned data in a table view.
 
-7. Create a button to vote and unvote a product.
