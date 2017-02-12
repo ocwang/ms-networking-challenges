@@ -25,5 +25,7 @@ https://api.producthunt.com/v1/docs/
 You will need to sign up for Product Hunt, register an application, and generate a token.
 
 Example:
+
 Name: PHAPIExampleApp
+
 Redirect URI: http://localhost:3000/users/auth/producthunt/callback
