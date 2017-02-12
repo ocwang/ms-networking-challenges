@@ -15,10 +15,15 @@
 
 5. Display the data returned in a feed that shows each product's name, tagline, number of votes, and thumbnail.
 
-6. Add a button so that users can vote and unvote products in the feed.
+6. If a user clicks on a post, show a new screen with all the comments for that post, sorted in descending order.
 
 7. After you've completed steps 1-6, go back and refactor your code so that you're constructing URL requests with an enum.
 
 **Resources:**
 https://api.producthunt.com/v1/docs/
-Auth Token: 
+
+You will need to sign up for Product Hunt, register an application, and generate a token.
+
+Example:
+Name: PHAPIExampleApp
+Redirect URI: http://localhost:3000/users/auth/producthunt/callback
