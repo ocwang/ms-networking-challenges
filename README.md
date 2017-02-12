@@ -1,9 +1,9 @@
 # Basic Networking Challenges
 ### Monday, Feb. 13th
 
-*Content:* A client wants to build a simple wrapper around Product Hunt using the PH API. The first feature you are to implement is to build a main feed that display's all of today's featured products. The client doesn't want to add any dependencies and asks you explicitly not to use any third party libraries.
+**Context:** A client wants to build a simple wrapper around Product Hunt using the PH API. The first feature the client wants you to implement is a feed that displays all of today's featured products. The client wants to keep the project lean and asks you explicitly not to use any dependencies or third party libraries.
 
-*Specs:*
+**Specs:**
 
 1. Create your URL in a composable manner so the client can easily add more features reusing base URL and/or adding more parameters to existing URLs.
 
@@ -17,4 +17,8 @@
 
 6. Add a button so that users can vote and unvote products in the feed.
 
+7. After you've completed steps 1-6, go back and refactor your code so that you're constructing URL requests with an enum.
 
+**Resources:**
+https://api.producthunt.com/v1/docs/
+Auth Token: 
