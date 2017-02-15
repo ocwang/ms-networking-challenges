@@ -29,3 +29,25 @@ Example:
 Name: PHAPIExampleApp
 
 Redirect URI: http://localhost:3000/users/auth/producthunt/callback
+
+# Intermediate Networking Challenges
+### Wednesday, Feb. 15th
+
+###### Challenge 1
+**Context:** After arguing for a couple days, you're finally able to convinence the client to see the value in Alamofire. You'll be switching your networking layer from using Apple's native URLSession to Alamofire. Because you've built your app to be modular, you're able to easily replace URLSession with Alamofire.
+
+After switching to AF, the client has given you a new set of requests.
+
+**Specs**
+
+1. Once you scroll to the end of the listed products, the client wants to paginate to see the previous day's products.
+
+2. Implement a better way of handling async image-loading and caching.
+
+3. Better security and handling of headers and auth token.
+
+4. Handle common network errors.
+
+5. Unfortunately PH doesn't give us write access, but implement upvote / unvote functionality on client side.
+
+6. After completing steps 1-4, reflect over the implementation of your network layer and see if you can refactor it to be better.
